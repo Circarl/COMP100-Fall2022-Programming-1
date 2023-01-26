@@ -1,0 +1,91 @@
+// See https://aka.ms/new-console-template for more information
+
+string myName = "Carl Kevin Gasal";
+string myStreet = "3201 Lawrence Ave East";
+string myCity = "Scarborough, Ontario";
+
+Console.WriteLine("////////////////////////////////");
+Console.WriteLine($"//  {myName,10}//");
+Console.WriteLine($"//  {myStreet,10}//");
+Console.WriteLine($"//  {myCity,10}//");
+Console.WriteLine("////////////////////////////////");
+
+test 1
+==========================
+Console.Write("Enter the item: ");
+string item = Console.ReadLine();
+Console.Write("Enter the price of the item: ");
+float price = Convert.ToSingle(Console.ReadLine());
+
+float cost = 1.13f;
+float total = cost * price;
+
+Console.WriteLine($"You have to pay {total:C} for a {item}");
+
+test 2
+==========================
+Console.Write("Enter a letter: ");
+char letterInput = Convert.ToChar(Console.ReadLine());
+
+Console.WriteLine($"The number {(float)letterInput:0.0} is equivalent to the letter {letterInput}");
+
+# 3
+
+=====================
+Console.WriteLine("Enter the numebr of courses you are taking");
+int courses = Convert.ToInt32(Console.ReadLine());
+float tuitionFee;
+const float amountPerCourse = 499f;
+const float discount = .06f;
+tuitionFee = courses * amountPerCourse;
+
+if (courses > 5)
+{
+    float discounted = tuitionFee * discount;
+    tuitionFee -= discounted;
+    Console.WriteLine($"Your full tuition fee is {tuitionFee:C} with 6% discounted");
+}
+else
+    Console.WriteLine($"Your full tuition fee is {tuitionFee:C}.");
+
+============================
+
+#5
+
+Console.Write("What is your home planet? ");
+string planet = Console.ReadLine();
+planet = planet.ToLower();
+
+    if(planet == "earth")
+        Console.WriteLine($"{planet.ToLower()}.You are an Earthling and you have 10 fingers");
+    else if(planet == "venus")
+        Console.WriteLine($"{planet.ToUpper()}.You are a Venusian and you have 12 fingers");
+    else if(planet == "mars")
+        Console.WriteLine($"{planet.ToLower()}.You are a Martian and you have 8 fingers");
+    else
+        Console.WriteLine("I am sorry I don't know of that planet");
+
+==============================
+#6
+
+Console.Write("What is kind of car would you like to rent? ");
+string typeOfRide = Console.ReadLine();
+
+switch(typeOfRide.ToLower())
+{
+    case "sedan":
+        Console.WriteLine("sedan cost $21.40 per day");
+        break;
+    case "COMPACT":
+        Console.WriteLine($"{typeOfRide.ToUpper()} cost $18.90 per day");
+        break;
+    case "Sports":
+        Console.WriteLine("Sports cost $32.80 per day");
+        break;
+    default:
+        Console.WriteLine("I am sorry I don't know of that kind of car");
+        break;
+
+}
+
+=============================
