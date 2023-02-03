@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Avalonia.Desktop</id>
+    <version>0.10.0</version>
+    <authors>Avalonia.Desktop</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://avaloniaui.net/</projectUrl>
+    <description>Avalonia is a WPF/UWP-inspired cross-platform XAML-based UI framework providing a flexible styling system and supporting a wide range of Operating Systems such as Windows (.NET Framework, .NET Core), Linux (via Xorg), MacOS and with experimental support for Android and iOS.</description>
+    <releaseNotes>https://github.com/AvaloniaUI/Avalonia/releases</releaseNotes>
+    <copyright>Copyright 2021 © The AvaloniaUI Project</copyright>
+    <tags>avalonia avaloniaui mvvm rx reactive extensions android ios mac forms wpf net netstandard net461 uwp xamarin</tags>
+    <repository type="git" url="https://github.com/AvaloniaUI/Avalonia/" commit="847e93eb1cab4f142e6d02386b801ea859f2caf3" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Avalonia.Native" version="0.10.0" exclude="Build,Analyzers" />
+        <dependency id="Avalonia" version="0.10.0" />
+        <dependency id="Avalonia.X11" version="0.10.0" exclude="Build,Analyzers" />
+        <dependency id="Avalonia.Skia" version="0.10.0" exclude="Build,Analyzers" />
+        <dependency id="Avalonia.Win32" version="0.10.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

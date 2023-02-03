@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>Microsoft.Reactive.Testing</id>
+    <version>4.1.6</version>
+    <authors>.NET Foundation and Contributors</authors>
+    <owners>.NET Foundation and Contributors</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <projectUrl>http://go.microsoft.com/fwlink/?LinkId=261273</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/dotnet/reactive/0f837d11385cfaf575861ccc5a5fbcafb22d888f/Rx.NET/Resources/Artwork/Logo.png</iconUrl>
+    <description>Reactive Extensions (Rx) for .NET - Testing Library</description>
+    <copyright>Copyright (c) .NET Foundation and Contributors.</copyright>
+    <tags>Rx Reactive Extensions Observable LINQ Events</tags>
+    <repository type="git" url="https://github.com/dotnet/reactive" commit="27cbac6309945a9abe905fb6dda5d7d3a434c0d4" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6">
+        <dependency id="System.Reactive" version="4.1.6" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="UAP10.0">
+        <dependency id="System.Reactive" version="4.1.6" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Reactive" version="4.1.6" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

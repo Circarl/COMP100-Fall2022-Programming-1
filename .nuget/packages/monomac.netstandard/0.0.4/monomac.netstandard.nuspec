@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>MonoMac.NetStandard</id>
+    <version>0.0.4</version>
+    <authors>kekekeks</authors>
+    <owners>kekekeks</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/AvaloniaUI/monomac</projectUrl>
+    <description>MonoMac</description>
+    <copyright>https://github.com/mono/monomac/blob/master/AUTHORS</copyright>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="System.IO.UnmanagedMemoryStream" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Reflection.Emit" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Reflection.Emit.Lightweight" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="System.IO.UnmanagedMemoryStream" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Reflection.Emit" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Reflection.Emit.Lightweight" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.IO.UnmanagedMemoryStream" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Reflection.Emit" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Reflection.Emit.Lightweight" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <title>MonoMac</title>
+  </metadata>
+</package>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>BarcodeLib</id>
+    <version>2.0.0</version>
+    <authors>Brad Barnhill</authors>
+    <owners>Brad Barnhill</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/bbarnhill/barcodelib/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/barnhill/barcodelib</projectUrl>
+    <iconUrl>https://github.com/barnhill/barcodelib/blob/master/BarcodeStandard/examples/upca.gif</iconUrl>
+    <description>This library was designed to give an easy class for developers to use when they need to generate barcode images from a string of data.</description>
+    <copyright>Copyright 2007-2017 Brad Barnhill</copyright>
+    <repository type="git" url="https://github.com/barnhill/barcodelib.git" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Drawing.Common" version="4.5.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

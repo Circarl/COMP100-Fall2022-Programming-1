@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>H.NotifyIcon</id>
+    <version>1.0.18</version>
+    <authors>havendv -&gt; Lakritzator and Philipp Sumi</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>nuget_icon.png</icon>
+    <projectUrl>https://github.com/HavenDV/H.NotifyIcon.WPF</projectUrl>
+    <description>Interop Core Package for Hardcodet.NotifyIcon.Wpf.NetCore</description>
+    <copyright>Copyright (c) 2016 Philipp Sumi</copyright>
+    <tags>NotifyIcon, Interop</tags>
+    <repository type="git" url="https://github.com/HavenDV/H.NotifyIcon.WPF" commit="c53d534deb671021143844704592b88070213265" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+</package>
